@@ -5,7 +5,7 @@
     display:block;
     clear:none;
     float:left;
-    border: 1px solid #1492A3
+    border: 1px solid #14A316
 }
 
 .active-scaffold textarea {
@@ -14,7 +14,7 @@
     display:block;
     float:left;
     clear:none;
-    border: 1px solid #1492A3
+    border: 1px solid #14A316
 }
 
 .active-scaffold .description {
@@ -70,18 +70,13 @@
 }
 
 .active-scaffold .view {
-    background:none;
-    border: 1px solid #1492A3
+    border: 1px solid #14A316
 }
 
 .active-scaffold label {
     color:#000;
 }
 
-.active-scaffold a:hover {
-    background:none;
-}
-
 .active-scaffold h4, .active-scaffold h5 {
-    color:#1492A3;
+    color:#14A316;
 }

@@ -20,11 +20,9 @@ module ApplicationHelper
 
   def link_to_languages
     html = Language.published.map do |lang|
-      img = image_tag("/images/flags/"+lang.name+".png", :alt => lang.description)
+      #img = image_tag("/images/flags/"+lang.name+".png", :alt => lang.description)
       to_params = params_to_lang(lang.name)
-      "<li>" +
-        link_to_unless_current( img, to_params) +
-        "</li>"
+      content_tag(:li, link_to_unless_current( lang.name.upcase, to_params), :class=> (lang.name == I18n.locale ? 'active' : ''))
     end
     html.join(' ')
   end
