@@ -193,7 +193,7 @@ a {
 	
 .button-join a:hover {
 	background: url(/images/button-join.png) no-repeat top left;
-	}
+}
 	
 .box-banner {
 	width: 374px;
@@ -377,7 +377,7 @@ div.flags li a {
 	}
 			
 #sub-menu li ul li a:hover{
-	background: #8da38d;
+	background: #14a316;
 	color: #fff;
 	}
 	
