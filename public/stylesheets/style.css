@@ -151,7 +151,7 @@ a {
 	}
 	
 .common {
-	background: url(/images/bg-common-content.gif) repeat-y right top; 
+	background: url(/images/bg-common-content.png) repeat-y right top; 
 	}
 
 
@@ -231,7 +231,7 @@ a {
 	}
 	
 .box {
-	border-top: #3b533b 1px solid;
+	border-top: 5px solid #14A316;
 	margin-top: 30px;
 	padding-top: 20px;
 
