@@ -269,12 +269,13 @@ div.flags {
 div.flags li {
 	list-style: none;
 	float: right;
-	padding: 2px 3px;
+	padding: 0px 1px;
   margin-right: 9px;
+	border-bottom: 3px solid transparent;
 	}
 
 div.flags li.active {
-  border: 1px solid gray;
+	border-bottom: 3px solid #14a316;
 }
 
 div.flags li a {
